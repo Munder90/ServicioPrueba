@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="sapnco">
+      <HintPath>D:\Documents\GitHub\ReadFiles\ReadFiles\ReadFilesConfig\bin\Debug\sapnco.dll</HintPath>
+    </Reference>
+    <Reference Include="sapnco_utils">
+      <HintPath>D:\Documents\GitHub\ReadFiles\ReadFiles\ReadFilesConfig\bin\Debug\sapnco_utils.dll</HintPath>
+    </Reference>
+    <Reference Include="TaskScheduler">
+      <HintPath>D:\Downloads\TaskSheduler\TSNewLib_lib\TaskScheduler Library &amp; Doc\TaskScheduler.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
